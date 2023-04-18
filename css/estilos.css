@@ -1,0 +1,173 @@
+/*formatações do index*/
+/**
+***Limpar formatações padrões***
+**/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 1em; /*1em equivale a 16px*/
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+}
+
+
+
+/**
+***Layout***
+**/
+#cabecalho {
+    background: #df7b0a;
+    padding: 10px;
+}
+
+
+#logo-home a {
+    font-size: 2.0em;
+    font-family: 'Pacifico', cursive;
+    color: #F2F2F2;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+#principal {
+    width: 990px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+}
+
+h5 {
+    padding-bottom: 8px;
+}
+
+.subtitulo-receita {
+    padding-top: 8px;
+}
+
+
+/**
+***Formatação do menu***
+**/
+#menu {
+    display: flex;
+    justify-content: center;
+}
+
+#menu a {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: #F2F2F2;
+    margin: 0 10px;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+}
+
+#menu a:hover {
+    color: #df7b0a;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/**
+***Formatação de links***
+**/
+.grid-link {
+    color: white;
+    text-decoration: none;
+}
+
+
+/**
+***Formatações grid***
+**/
+#grid-conteiner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* define 3 colunas com largura igual */
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    margin: 100px;
+    width: 60%;
+}
+
+.grid-item {
+    text-align: center;
+    border: 7px solid #df7b0a;
+    border-radius: 5px;
+    background-color: #df7b0a;
+    min-height: 230px;
+    max-height: 200px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.grid-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.grid-text {
+    padding-top: 10px;
+}
+
+/** formatações dos doces**/
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+    font-size: 1.2em;
+}
+
+#content-receitas {
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+    border: 6px solid  #df7b0a;
+    border-radius: 6px;
+    background: #df7b0a;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+#cabecalho-receitas {
+    padding-bottom: 25px;
+    padding-top: 15px;
+}
+
+.imagem {
+    width: 100%;
+}
+
+.receitas {
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.ingredientes {
+    padding-bottom: 15px;
+}
+
+.montagem {
+    padding-top: 15px;
+}
+
+
+
+
+
+
+
